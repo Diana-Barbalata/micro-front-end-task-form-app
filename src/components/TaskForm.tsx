@@ -22,9 +22,9 @@ const TaskForm: FC<Props> = ({ onAddTask })=> {
             type="text"
     value={newTask}
     onChange={(e) => setNewTask(e.target.value)}
-    placeholder="Add new task"
+    placeholder="Adaugă un element în listă"
     />
-    <button type="submit">Add Task</button>
+    <button type="submit">Adaugă element</button>
     </form>
 );
 }
